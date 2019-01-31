@@ -11,6 +11,7 @@ const Navbar = () => {
         <li><NavLink to="/react-elements">React Elements</NavLink></li>
         <li><NavLink to="/react-jsx">JSX</NavLink></li>
         <li><NavLink to="/create-react-app">Create React App</NavLink></li>
+        <li><NavLink to="/react-router">React Router</NavLink></li>
         <li><NavLink to="/es6-modules">ES6 Modules</NavLink></li>
         <li><NavLink to="/webpack">Webpack</NavLink></li>
       </ul>

@@ -10,21 +10,25 @@ import ReactJSX from './components/ReactJSX';
 import CreateReactApp from './components/CreateReactApp';
 import ES6Modules from './components/ES6Modules';
 import Webpack from './components/Webpack';
+import ReactRouter from './components/ReactRouter';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="App">
+          <div className="main">
+            <Route exact path="/" component={ReactHome} />
+            <Route path="/react-info" component={ReactInfo} />
+            <Route path="/react-components" component={ReactComponents} />
+            <Route path="/react-elements" component={ReactElements} />
+            <Route path="/react-jsx" component={ReactJSX} />
+            <Route path="/create-react-app" component={CreateReactApp} />
+            <Route path="/react-router" component={ReactRouter} />
+            <Route path="/es6-modules" component={ES6Modules} />
+            <Route path="/webpack" component={Webpack} />
+          </div>
           <Navbar />
-          <Route exact path="/" component={ReactHome} />
-          <Route path="/react-info" component={ReactInfo} />
-          <Route path="/react-components" component={ReactComponents} />
-          <Route path="/react-elements" component={ReactElements} />
-          <Route path="/react-jsx" component={ReactJSX} />
-          <Route path="/create-react-app" component={CreateReactApp} />
-          <Route path="/es6-modules" component={ES6Modules} />
-          <Route path="/webpack" component={Webpack} />
         </div>
       </BrowserRouter>
     );
