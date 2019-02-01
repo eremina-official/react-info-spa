@@ -5,8 +5,9 @@ const Navbar = () => {
   return (
     <div>
       <ul>
-        <li><NavLink to="/">React</NavLink></li>
-        <li><NavLink to="/react-info">React Info</NavLink></li>
+        {/* exact attribute must be set for "/" Navlink otherwise className active attribute is always applied */}
+        <li><NavLink exact to="/">Intro</NavLink></li>
+        <li><NavLink to="/react-info">React</NavLink></li>
         <li><NavLink to="/react-components">React Components</NavLink></li>
         <li><NavLink to="/react-elements">React Elements</NavLink></li>
         <li><NavLink to="/react-jsx">JSX</NavLink></li>
