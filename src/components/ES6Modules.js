@@ -4,6 +4,7 @@ const ES6Modules = () => {
   return (
     <div>
       <h1>ES6 modules</h1>
+      <h2>This page describes ES6 Modules.</h2>
       <p>ES6 modules is a <a href="http://www.ecma-international.org/ecma-262/6.0/#sec-modules">standardized module system</a> in JavaScript.</p>
       <p>ES6 module is a file containing JavaScript code.</p>
       <p>For a browser to know that a file is a ES6 module the script tag must have a type="module" attribute.</p>
@@ -16,7 +17,7 @@ const ES6Modules = () => {
       <p>Modules that export values can change those values at any time, but importing modules cannot change the values of their imports. If a module imports an object, it can change property values that are on that object.</p>
       <p>Export statement makes variables and functions available for other modules.</p>
       <p>There are two types of export: named and default (<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export">link</a>).</p>
-      <p>All the modules build a graph of dependencies. The connections between different dependencies come from any import statements. One of the files is used as an entry point to the graph, from the entry point following all the import statements the dependencies are constructed.</p>
+      <p>All the modules build a graph of dependencies. The connections between different dependencies come from any import statement. One of the files is used as an entry point to the graph, from the entry point following all the import statements the dependencies are constructed.</p>
     </div>
   );
 };
