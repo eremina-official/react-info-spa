@@ -13,7 +13,7 @@ import NoMatch from './NoMatch';
 
 const Main = () => {
   return (
-    <div>
+    <div className="col-sm-8 pt-4">
       <Switch>
         <Route exact path="/" component={ReactHome} />
         <Route path="/react-info" component={ReactInfo} />
