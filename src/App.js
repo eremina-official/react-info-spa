@@ -8,9 +8,11 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
-          <Main />
-          <Navbar />
+        <div className="App container">
+          <div className="row">
+            <Navbar className="col-4" />
+            <Main className="col-8" />
+          </div>
         </div>
       </BrowserRouter>
     );
