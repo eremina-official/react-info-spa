@@ -1,7 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+
 
 const Navigation = () => {
   return (
@@ -10,17 +11,37 @@ const Navigation = () => {
       <Navbar.Collapse id="responsive-navbar-nav" className="flex-column">
         <p className="font-weight-bold mb-0 align-self-start pt-3 pt-md-0 pl-md-2">Contents</p>
         <Nav className="mr-auto flex-column">
-          {/* exact attribute must be set for Navlink to="/",
-          otherwise className="active" attribute is always applied */}
-          <Nav.Item><NavLink exact to="/" className="nav-link">Intro</NavLink></Nav.Item>
-          <Nav.Item><NavLink to="/react-info" className="nav-link">React</NavLink></Nav.Item>
-          <Nav.Item><NavLink to="/react-components" className="nav-link">React Components</NavLink></Nav.Item>
-          <Nav.Item><NavLink to="/react-elements" className="nav-link">React Elements</NavLink></Nav.Item>
-          <Nav.Item><NavLink to="/react-jsx" className="nav-link">JSX</NavLink></Nav.Item>
-          <Nav.Item><NavLink to="/create-react-app" className="nav-link">Create React App</NavLink></Nav.Item>
-          <Nav.Item><NavLink to="/react-router" className="nav-link">React Router</NavLink></Nav.Item>
-          <Nav.Item><NavLink to="/es6-modules" className="nav-link">ES6 Modules</NavLink></Nav.Item>
-          <Nav.Item><NavLink to="/webpack" className="nav-link">Webpack</NavLink></Nav.Item>
+          {/* react-router-bootstrap provides integration between React Router v4 and React Bootstrap. 
+          React Bootstrap elements are wrapped in a <LinkContainer> to make them behave like a React Router <Link>.
+          For <LinkContainer to="/" exact attribute must be set, 
+          otherwise the className="active" is always attached.*/}
+          <LinkContainer exact to="/">
+            <Nav.Link>Intro</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/react-info">
+            <Nav.Link>React</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/react-components">
+            <Nav.Link>React Components</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/react-elements">
+            <Nav.Link>React Elements</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/react-jsx">
+            <Nav.Link>JSX</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/create-react-app">
+            <Nav.Link>Create React App</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/react-router">
+            <Nav.Link>React Router</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/es6-modules">
+            <Nav.Link>ES6 Modules</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/webpack">
+            <Nav.Link>Webpack</Nav.Link>
+          </LinkContainer> 
         </Nav>
       </Navbar.Collapse>
     </Navbar>
