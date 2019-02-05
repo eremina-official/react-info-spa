@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/eremina-official/precache-manifest.d4ecb055304f6dddb0cfdbe93778bc24.js"
+  "/eremina-official/precache-manifest.7a01abd15924c14650e591b2b9fb6cda.js"
 );
 
 workbox.clientsClaim();
