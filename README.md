@@ -1,6 +1,6 @@
 A Single Page Application project made with [Create React App](https://github.com/facebook/create-react-app).
 
-The page provides a brief summary of the React v16 main concepts as well as an overview of selected technologies which are used together with React.
+The page provides a brief summary of the React v16 main concepts as well as an overview of selected technologies which are used with React.
 
 Routing is done with [React Router](https://github.com/ReactTraining/react-router).
 
