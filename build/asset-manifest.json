@@ -1,13 +1,13 @@
 {
-  "main.css": "/eremina-official/static/css/main.0e3aeba9.chunk.css",
-  "main.js": "/eremina-official/static/js/main.709a59b4.chunk.js",
-  "main.js.map": "/eremina-official/static/js/main.709a59b4.chunk.js.map",
-  "static/js/1.b260573c.chunk.js": "/eremina-official/static/js/1.b260573c.chunk.js",
-  "static/js/1.b260573c.chunk.js.map": "/eremina-official/static/js/1.b260573c.chunk.js.map",
+  "main.css": "/eremina-official/static/css/main.16880a82.chunk.css",
+  "main.js": "/eremina-official/static/js/main.e1f3587f.chunk.js",
+  "main.js.map": "/eremina-official/static/js/main.e1f3587f.chunk.js.map",
+  "static/js/1.cde1d642.chunk.js": "/eremina-official/static/js/1.cde1d642.chunk.js",
+  "static/js/1.cde1d642.chunk.js.map": "/eremina-official/static/js/1.cde1d642.chunk.js.map",
   "runtime~main.js": "/eremina-official/static/js/runtime~main.2f1a7e44.js",
   "runtime~main.js.map": "/eremina-official/static/js/runtime~main.2f1a7e44.js.map",
-  "static/css/main.0e3aeba9.chunk.css.map": "/eremina-official/static/css/main.0e3aeba9.chunk.css.map",
+  "static/css/main.16880a82.chunk.css.map": "/eremina-official/static/css/main.16880a82.chunk.css.map",
   "index.html": "/eremina-official/index.html",
-  "precache-manifest.d4ecb055304f6dddb0cfdbe93778bc24.js": "/eremina-official/precache-manifest.d4ecb055304f6dddb0cfdbe93778bc24.js",
+  "precache-manifest.7a01abd15924c14650e591b2b9fb6cda.js": "/eremina-official/precache-manifest.7a01abd15924c14650e591b2b9fb6cda.js",
   "service-worker.js": "/eremina-official/service-worker.js"
 }
