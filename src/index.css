@@ -16,12 +16,13 @@ code {
 
 h1 {
   font-size: 1.7rem;
+  margin-bottom: 18px;
 }
 
 h2 {
   font-size: 1rem;
   font-weight: 300;
-  margin-bottom: 15px;
+  margin-bottom: 28px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
