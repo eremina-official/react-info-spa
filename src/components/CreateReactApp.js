@@ -5,7 +5,7 @@ const CreateReactApp = () => {
     <div>
       <h1>Create React App</h1>
       <h2>Intro to Create React App.</h2>
-      <p><a href="https://github.com/facebook/create-react-app">Create React App</a> is an officially supported way to create React applications.</p>
+      <p><a href="https://github.com/facebook/create-react-app">Create React App</a> is an officially supported CLI tool for creating React applications.</p>
       <p>CRA offers a project setup that needs no configuration.</p>
       <p>CRA uses project build tools (such as Webpack, Babel, ESLint) which are preconfigured by default.</p>
       <p>The project setup supports ES6 modules.</p>
