@@ -3,7 +3,7 @@ import React from 'react';
 const ReactComponents = () => {
   return (
     <div>
-      <h1>React components</h1>
+      <h1>React Components</h1>
       <h2>On this page the React Components main concepts are presented.</h2>
       <p><a href="https://reactjs.org/docs/components-and-props.html">React Components</a> are independent, reusable pieces of UI.</p>
       <p>React Components return React Elements.</p>
