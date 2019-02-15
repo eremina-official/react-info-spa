@@ -5,6 +5,7 @@ import ReactInfo from './ReactInfo';
 import ReactComponents from './ReactComponents';
 import ReactElements from './ReactElements';
 import ReactJSX from './ReactJSX';
+import ChangeDetectionInReact from './ChangeDetectionInReact';
 import CreateReactApp from './CreateReactApp';
 import ES6Modules from './ES6Modules';
 import Webpack from './Webpack';
@@ -20,6 +21,7 @@ const Main = () => {
         <Route path="/react-components" component={ReactComponents} />
         <Route path="/react-elements" component={ReactElements} />
         <Route path="/react-jsx" component={ReactJSX} />
+        <Route path="/change-detection-in-react" component={ChangeDetectionInReact} />
         <Route path="/create-react-app" component={CreateReactApp} />
         <Route path="/react-router" component={ReactRouter} />
         <Route path="/es6-modules" component={ES6Modules} />

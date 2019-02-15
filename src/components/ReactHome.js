@@ -10,6 +10,7 @@ const ReactHome = () => {
         <li>React componets</li>
         <li>React elements</li>
         <li>JSX</li>
+        <li>Change detection in React</li>
         <li>Create React App</li>
         <li>React Router</li>
         <li>ES6 modules</li>

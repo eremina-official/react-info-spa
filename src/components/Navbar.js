@@ -30,6 +30,9 @@ const Navigation = () => {
           <LinkContainer to="/react-jsx">
             <Nav.Link>JSX</Nav.Link>
           </LinkContainer>
+          <LinkContainer to="/change-detection-in-react">
+            <Nav.Link>Change Detection in React</Nav.Link>
+          </LinkContainer>
           <LinkContainer to="/create-react-app">
             <Nav.Link>Create React App</Nav.Link>
           </LinkContainer>
