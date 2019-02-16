@@ -30,6 +30,9 @@ const Navigation = () => {
           <LinkContainer to="/react-jsx">
             <Nav.Link>JSX</Nav.Link>
           </LinkContainer>
+          <LinkContainer to="/handling-events">
+            <Nav.Link>Handling Events</Nav.Link>
+          </LinkContainer>
           <LinkContainer to="/change-detection-in-react">
             <Nav.Link>Change Detection in React</Nav.Link>
           </LinkContainer>
