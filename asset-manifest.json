@@ -1,13 +1,13 @@
 {
   "main.css": "/react-info-spa/static/css/main.16880a82.chunk.css",
-  "main.js": "/react-info-spa/static/js/main.81fe5987.chunk.js",
-  "main.js.map": "/react-info-spa/static/js/main.81fe5987.chunk.js.map",
-  "static/js/1.2abbafa7.chunk.js": "/react-info-spa/static/js/1.2abbafa7.chunk.js",
-  "static/js/1.2abbafa7.chunk.js.map": "/react-info-spa/static/js/1.2abbafa7.chunk.js.map",
+  "main.js": "/react-info-spa/static/js/main.cc62c8a9.chunk.js",
+  "main.js.map": "/react-info-spa/static/js/main.cc62c8a9.chunk.js.map",
+  "static/js/1.401be023.chunk.js": "/react-info-spa/static/js/1.401be023.chunk.js",
+  "static/js/1.401be023.chunk.js.map": "/react-info-spa/static/js/1.401be023.chunk.js.map",
   "runtime~main.js": "/react-info-spa/static/js/runtime~main.888598db.js",
   "runtime~main.js.map": "/react-info-spa/static/js/runtime~main.888598db.js.map",
   "static/css/main.16880a82.chunk.css.map": "/react-info-spa/static/css/main.16880a82.chunk.css.map",
   "index.html": "/react-info-spa/index.html",
-  "precache-manifest.a6e7706309ac4ad6355c450eafd1d450.js": "/react-info-spa/precache-manifest.a6e7706309ac4ad6355c450eafd1d450.js",
+  "precache-manifest.d49171bb0f5c709e633d4e4ee6c5e56e.js": "/react-info-spa/precache-manifest.d49171bb0f5c709e633d4e4ee6c5e56e.js",
   "service-worker.js": "/react-info-spa/service-worker.js"
 }
