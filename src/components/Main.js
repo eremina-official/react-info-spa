@@ -22,7 +22,7 @@ const Main = () => {
         <Route path="/react-components" component={ReactComponents} />
         <Route path="/react-elements" component={ReactElements} />
         <Route path="/react-jsx" component={ReactJSX} />
-        <Route path="/handling-events" component={HandlingEvents} />
+        <Route path="/handling-events-in-react" component={HandlingEvents} />
         <Route path="/change-detection-in-react" component={ChangeDetectionInReact} />
         <Route path="/create-react-app" component={CreateReactApp} />
         <Route path="/react-router" component={ReactRouter} />

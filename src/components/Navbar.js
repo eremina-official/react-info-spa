@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 
 const Navigation = () => {
   return (
-    <Navbar variant="light" bg="light" expand="md" collapseOnSelect className="align-items-start pt-4 min-height-100vh">
+    <Navbar variant="light" bg="light" expand="md" collapseOnSelect className="align-items-start navbar-custom">
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className="flex-column">
         <p className="font-weight-bold mb-0 align-self-start pt-3 pt-md-0 pl-md-2">Contents</p>
@@ -30,7 +30,7 @@ const Navigation = () => {
           <LinkContainer to="/react-jsx">
             <Nav.Link>JSX</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/handling-events">
+          <LinkContainer to="/handling-events-in-react">
             <Nav.Link>Handling Events</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/change-detection-in-react">
