@@ -46,8 +46,9 @@ h2 {
     font-size: 1.1rem;
   }
 
-  .min-height-100vh {
+  .navbar-custom {
     min-height: 100vh;
+    padding-top: 1.5rem;
   }
 }
 
@@ -62,8 +63,9 @@ h2 {
     margin-bottom: 28px;
   }
 
-  .min-height-100vh {
+  .navbar-custom {
     min-height: 100vh;
+    padding-top: 1.5rem;
   }
 }
 
@@ -78,7 +80,8 @@ h2 {
     margin-bottom: 28px;
   }
 
-  .min-height-100vh {
+  .navbar-custom {
     min-height: 100vh;
+    padding-top: 1.5rem;
   }
 }
