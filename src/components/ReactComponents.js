@@ -29,10 +29,10 @@ const ReactComponents = () => {
       <p className="font-weight-bold pt-3">Component Lifecycle Methods</p>
       <p>Lifecycle methods is a feature available only for Class Components (not available for Function Components).</p>
 
-      <p className="font-italic font-weight-bold">Render()</p>
+      <p className="font-italic font-weight-bold">render()</p>
       <p>The <a href="https://reactjs.org/docs/react-component.html#render"><code>render()</code></a> method is mandatory in a <code>React.Component</code> subclass.</p>
       <p>What <code>render()</code> method does when called: it inspects <code>this.props</code> and <code>this.state</code> and returns an element to render or null (<a href="https://reactjs.org/docs/react-component.html#render">link</a>).</p>
-      <p><code>render()</code> method should be a pure function (means it should not modify component state, it returns the same result each times it is invoked, it does not directly interact with the browser).</p>
+      <p><code>render()</code> method should be a pure function (means it should not modify component state, it should return the same result each times it is invoked, it should not directly interact with the browser).</p>
     </div>
   );
 };
