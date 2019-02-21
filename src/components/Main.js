@@ -30,6 +30,7 @@ const Main = () => {
         <Route path="/webpack" component={Webpack} />
         <Route component={NoMatch} />
       </Switch>
+      <p className="font-italic font-weight-bold pt-4 pb-2">View code on <a href="https://github.com/eremina-official/react-info-spa">GitHub</a></p>
     </div>
   );
 };
