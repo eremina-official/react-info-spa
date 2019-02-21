@@ -20,13 +20,13 @@ const ReactComponents = () => {
       <p>Props is a JavaScript object.</p>
 
       <p className="font-italic font-weight-bold">setState()</p>
-      <p><code>setState</code> does not always update <code>this.state</code> immediately after it is called, sometimes multiple <code>setState</code> calls can be batched and executed later (<a href="https://reactjs.org/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous">link</a>).</p>
+      <p><code>setState()</code> does not always update <code>this.state</code> immediately after it is called, sometimes multiple <code>setState()</code> calls can be batched and executed later (<a href="https://reactjs.org/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous">link</a>).</p>
       <p><code>setState()</code> can take two kinds of parameters: an object literal or a function.</p>
       <p>The object literal parameter is used when the timing of state update is not important for app functioning (means that next application state does not rely on the updated state value).</p>
       <p>The function parameter is used when the timing of setting a new state matters. The function passed to the <code>setState()</code> receives previous state and props at the time update is applied as arguments. This function should be pure.</p>
 
       
-      <p className="font-weight-bold">Component Lifecycle Methods</p>
+      <p className="font-weight-bold pt-3">Component Lifecycle Methods</p>
       <p>Lifecycle methods is a feature available only for Class Components (not available for Function Components).</p>
 
       <p className="font-italic font-weight-bold">Render()</p>
