@@ -5,13 +5,16 @@ const ReactHome = () => {
     <div>
       <h1>Introduction</h1>
       <h2>The page provides a brief summary of the React v16 main concepts as well as an overview of selected technologies which are used with React.</h2>
+
+      <p>The aim of this page is to present the main <span className="font-weight-bold">React v16</span> concepts in a short and concise way. Links to external resources are provided for more detailed information on each topic. </p>
+
       <ul>
         <li>React</li>
-        <li>React componets</li>
-        <li>React elements</li>
+        <li>React Componets</li>
+        <li>React Elements</li>
         <li>JSX</li>
-        <li>Change detection in React</li>
         <li>Handling Events in React</li>
+        <li>Change Detection in React</li>
         <li>Create React App</li>
         <li>React Router</li>
         <li>ES6 modules</li>
@@ -23,6 +26,7 @@ const ReactHome = () => {
       <ul className="list-unstyled">
         <li><a href="https://reactjs.org/docs/getting-started.html">React Docs</a></li>
         <li><a href="https://reactjs.org/blog/2015/12/18/react-components-elements-and-instances.html">React Components, Elements, and Instances</a> - React Blog</li>
+        <li><a href="https://overreacted.io/react-as-a-ui-runtime/">React as a UI Runtime</a> - Dan Abramov's Blog</li>
         <li><a href="https://blog.angularindepth.com/what-every-front-end-developer-should-know-about-change-detection-in-angular-and-react-508f83f58c6a">What every front-end developer should know about change detection in Angular and React</a> - Change Detection</li>
         <li><a href="https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/">The difference between Virtual DOM and DOM</a> - Change Detection</li>
         <li><a href="https://github.com/facebook/create-react-app">Create React App Docs</a></li>
