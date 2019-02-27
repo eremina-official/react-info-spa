@@ -9,6 +9,7 @@ const ReactJSX = () => {
       <p>JSX is used to describe how the UI should look like.</p>
       <p>JSX is compiled by <a href="https://babeljs.io/">Babel</a> to <code>React.createElement()</code> call that returns a React Element. </p>
       <p>Any valid JavaScript expression can be embedded inside the curly braces in JSX.</p>
+      <p>JSX expressions are like plain JavaScript objects, they can be assigned to variables, returned from functions, passed to functions, passed to logical and ternary operators etc.</p>
     </div>
   );
 };
