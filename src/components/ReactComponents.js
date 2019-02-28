@@ -13,8 +13,6 @@ const ReactComponents = () => {
       <p className="font-italic font-weight-bold">State</p>
       <p>State is a feature available only for Class Components (not available for Function Components).</p>
       <p>State is a JavaScript object.</p>
-      <p>Initial component state (which is used for component mounting) is assigned directly in a <code>constructor()</code> method.</p>
-      <p>When the state should be changed, it is not changed directly (by an assignment of <code>this.state</code>) but with a <code>setState()</code> function call.</p>
 
       <p className="font-italic font-weight-bold">Props</p>
       <p>Props is a JavaScript object.</p>
@@ -24,6 +22,12 @@ const ReactComponents = () => {
       <p><code>setState()</code> can take two kinds of parameters: an object literal or a function.</p>
       <p>The object literal parameter is used when the timing of state update is not important for app functioning (means that next application state does not rely on the updated state value).</p>
       <p>The function parameter is used when the timing of setting a new state matters. The function passed to the <code>setState()</code> receives previous state and props at the time update is applied as arguments. This function should be pure (<a href="https://reactjs.org/docs/react-component.html#setstate">link</a>).</p>
+
+      <p className="font-weight-bold">Rules to follow when working with <code>this.state</code>.</p>
+      <p>Initial component state (which is used for component mounting) is assigned directly in a <code>constructor()</code> method.</p>
+      <p>When the state should be changed, it is not changed directly (by an assignment of <code>this.state</code>) but with a <code>setState()</code> function call.</p>
+      <p>To avoid direct state change, the <code>this.state</code> properties are copied into separate varialbes, the variables are changed and then used to set a new state in a <code>setState()</code> function call.</p>
+      <p>Care should be taken if the state properties are copied with methods which return a shallow copy of objects (f.e. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">slice</a>). If the object properties of <code>this.state</code> are copied by reference, then changing them in the copied object will also change them in <code>this.state</code>.</p>
 
       
       <p className="font-weight-bold pt-3">Component Lifecycle Methods</p>
