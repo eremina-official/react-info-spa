@@ -16,6 +16,8 @@ const ChangeDetectionInReact = () => {
       <p>After the change detection process is started, React executes the <code>render()</code> function that returns a new version of Virtual DOM tree. React compares the old and the new Virtual DOM to find difference between them (<a href="https://reactjs.org/docs/reconciliation.html">reconciliation</a>). When the difference is found, React creates a patch that is used to update the corresponding HTML DOM nodes.</p>
 
       <p>React updates the HTML DOM during the <a href="https://twitter.com/dan_abramov/status/981712092611989509?lang=en">Commit phase</a>.</p>
+
+      <p>** TODO: React Fiber **</p>
     </div>
   );
 };
