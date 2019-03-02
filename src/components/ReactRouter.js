@@ -38,7 +38,7 @@ const ReactRouter = () => {
           <p><code>Route</code> component passes to its render methods three props: <code>match</code>, <code>location</code> and <code>history</code> (<a href="https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Route.md#route-props">link</a>).</p>
         </dd>
       </dl>
-      <p>Dynamic routing with <code>match</code></p>
+      <p>** TODO: Dynamic routing with <code>match</code> **</p>
     </div>
   );
 };
