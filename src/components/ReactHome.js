@@ -33,6 +33,7 @@ const ReactHome = () => {
         <li><a href="https://github.com/ReactTraining/react-router/tree/master/packages/react-router/docs/api">React Router Docs</a></li>
         <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import">import</a> - ES6 Modules (MDN)</li>
         <li><a href="http://exploringjs.com/es6/ch_modules.html">Exploring JS: Modules</a> - ES6 Modules</li>
+        <li><a href="https://developers.google.com/web/fundamentals/primers/modules">Using JavaScript modules on the web</a> - Google Developers Web</li>
         <li><a href="https://webpack.js.org/concepts">Webpack Docs</a></li>
       </ul>
     </div>
