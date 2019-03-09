@@ -31,6 +31,7 @@ const ReactHome = () => {
         <li><a href="https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/">The difference between Virtual DOM and DOM</a> - Change Detection</li>
         <li><a href="https://github.com/facebook/create-react-app">Create React App Docs</a></li>
         <li><a href="https://github.com/ReactTraining/react-router/tree/master/packages/react-router/docs/api">React Router Docs</a></li>
+        <li><a href="http://www.ecma-international.org/ecma-262/6.0/#sec-modules">ECMAScript Specification</a> - ES6 Modules</li>
         <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import">import</a> - ES6 Modules (MDN)</li>
         <li><a href="http://exploringjs.com/es6/ch_modules.html">Exploring JS: Modules</a> - ES6 Modules</li>
         <li><a href="https://developers.google.com/web/fundamentals/primers/modules">Using JavaScript modules on the web</a> - Google Developers Web</li>
