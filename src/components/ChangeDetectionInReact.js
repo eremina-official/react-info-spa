@@ -18,6 +18,9 @@ const ChangeDetectionInReact = () => {
       <p>React updates the HTML DOM during the <a href="https://twitter.com/dan_abramov/status/981712092611989509?lang=en">Commit phase</a>.</p>
 
       <p>** TODO: React Fiber **</p>
+      <p>React Fiber is a new implementation of React core algorithm.</p>
+      <p>The main feature of React Fiber is <span className="font-weight-bold">incremental rendering</span> (ability to split rendering work into chunks and spread it over multiple frames).</p>
+      <p>React Fiber assigns a priority to different types of updates.</p>
     </div>
   );
 };
