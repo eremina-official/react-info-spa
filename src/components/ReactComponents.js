@@ -11,7 +11,7 @@ const ReactComponents = () => {
       <p>The <a href="https://reactjs.org/docs/react-component.html#the-component-lifecycle">Component Lifecycle</a> looks as follows: <code>Mount</code> --> <code>Update</code> --> <code>Unmount</code>.</p>
 
       <p className="font-italic font-weight-bold">State</p>
-      <p>State is a feature available only for Class Components (not available for Function Components).</p>
+      <p>State is a feature available only for Class Components (Function Components can use state via <a href="https://reactjs.org/docs/hooks-intro.html">hooks</a>).</p>
       <p>State is a JavaScript object.</p>
 
       <p className="font-italic font-weight-bold">Props</p>
