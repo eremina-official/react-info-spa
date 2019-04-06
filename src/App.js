@@ -10,7 +10,10 @@ import Navigation from './components/Navbar';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      /* to make routing work on gh-pages basename should be set to process.env.PUBLIC_URL as described here: 
+      https://medium.com/@Dragonza/react-router-problem-with-gh-pages-c93a5e243819 and 
+      https://github.com/facebook/create-react-app/issues/1765 */
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Container className="App">
           <Row>
             <Col xs={12} md={4} className="bg-light">
