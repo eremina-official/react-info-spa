@@ -6,7 +6,7 @@ Routing is done with [React Router](https://github.com/ReactTraining/react-route
 
 Styling is added with [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap).
 
-###Technologies:###
+### Technologies:
 - HTML
 - CSS
 - React
