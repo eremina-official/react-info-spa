@@ -6,7 +6,15 @@ Routing is done with [React Router](https://github.com/ReactTraining/react-route
 
 Styling is added with [React Bootstrap](https://github.com/react-bootstrap/react-bootstrap).
 
-**Technologies:** HTML, CSS, React, Create React App, React Router, React Bootstrap, react-router-bootstrap.
+**Technologies:**
+- HTML
+- CSS
+- React
+- Create React App
+- React Router
+- React Bootstrap
+- react-router-bootstrap
+- RWD
 
 **TODO:**
 - Hooks summary
