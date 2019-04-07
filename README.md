@@ -8,3 +8,7 @@ Styling is added with [React Bootstrap](https://github.com/react-bootstrap/react
 
 **Technologies:** HTML, CSS, React, Create React App, React Router, React Bootstrap, react-router-bootstrap.
 
+**TODO:**
+..*Hooks summary
+..*Jest summary 
+
