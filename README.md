@@ -22,5 +22,6 @@ Styling is added with [React Bootstrap](https://github.com/react-bootstrap/react
 
 **TODO:**
 - Hooks summary
-- Jest summary 
+- Jest summary
+- React Fiber
 
