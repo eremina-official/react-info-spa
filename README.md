@@ -23,5 +23,9 @@ Styling is added with [React Bootstrap](https://github.com/react-bootstrap/react
 **TODO:**
 - Hooks summary
 - Jest summary
-- React Fiber
+- React Compiler
+- Interview questions
+- Update links to new React docs
+- EsLint and Prettier
+- Improve styling
 
