@@ -176,6 +176,19 @@ const ReactComponents = () => {
         not modify component state, it should return the same result each time
         it is invoked, it should not directly interact with the browser).
       </p>
+
+      <section>
+        <b>When React components re-render:</b>
+        <ul>
+          <li>When the component's state changes</li>
+          <li>
+            When the parent component re-renders (which would cause the child
+            component's props to change)
+          </li>
+          <li>When the Context changes</li>
+          <li>When Hooks returned values change</li>
+        </ul>
+      </section>
     </div>
   );
 };
