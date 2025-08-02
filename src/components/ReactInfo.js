@@ -5,7 +5,9 @@ const ReactInfo = () => {
     <div>
       <h1>React</h1>
 
-      <h2>This page is an overview of the essential React concepts.</h2>
+      <p className='fw-light fs-5'>
+        This page is an overview of the essential React concepts.
+      </p>
       <p>
         <a href='https://react.dev/'>React</a> is a JavaScript library for
         building user interfaces.
@@ -20,7 +22,7 @@ const ReactInfo = () => {
       </p>
 
       <p>
-        React enforces
+        React enforces a{' '}
         <a href='https://reactjs.org/docs/faq-internals.html#what-is-the-virtual-dom'>
           declarative programming
         </a>
@@ -34,7 +36,10 @@ const ReactInfo = () => {
       </p>
       <ul>
         <li>Components and hooks must be pure</li>
-        <li>React calls Components and Hooks</li>
+        <li>
+          React calls Components and Hooks (Components and Hooks should not be
+          called as regular functions)
+        </li>
         <li>
           <a href='https://react.dev/reference/rules/rules-of-hooks'>
             Rules of Hooks
